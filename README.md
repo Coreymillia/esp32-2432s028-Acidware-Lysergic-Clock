@@ -71,6 +71,7 @@ Fireworks explosions, particle fountains, smoke dynamics, starfields, cosmic tun
 
 - **Touch Screen**: Tap to cycle through effects (Disabled for now, could not implement)
 - **Auto Mode**: Effects change automatically every 30 seconds (Disabled for now, caused brightness problems)
+- USE BOOT BUTTON TO CYCLE THROUGH SCREENS ONLY AS OF 11-26-2025
 
 ## 📁 Repository Structure
 

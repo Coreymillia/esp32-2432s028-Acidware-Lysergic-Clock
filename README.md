@@ -69,8 +69,8 @@ Fireworks explosions, particle fountains, smoke dynamics, starfields, cosmic tun
 
 ## 🎮 Controls
 
-- **Touch Screen**: Tap to cycle through effects
-- **Auto Mode**: Effects change automatically every 30 seconds
+- **Touch Screen**: Tap to cycle through effects (Disabled for now, could not implement)
+- **Auto Mode**: Effects change automatically every 30 seconds (Disabled for now, caused brightness problems)
 
 ## 📁 Repository Structure
 
@@ -114,5 +114,6 @@ MIT License - Feel free to use in personal and commercial projects.
 ---
 
 **Transform your ESP32 into a mathematical art gallery with 60 mesmerizing visual effects!** 🎨✨
+Still a work in progress. 
 
 *Project completed November 23, 2025 - Created with ❤️ and lots of mathematics*

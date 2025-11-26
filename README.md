@@ -25,7 +25,7 @@ Smooth Performance – 30+ FPS tuned for ESP32 hardware
 WiFi Version (Recommended – Set time via web interface)
 bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x10000 psychedelic_clock_wifi/psychedelic_clock_CLEAN_CLOCK_SET.bin
-# Connect to "ClockAP" WiFi, browse to 192.168.4.1 to set time
+# Connect to "Psyclock" WiFi, browse to 192.168.4.1 to set time
 Pure Visual Version (Effects only)
 bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x10000 firmware.bin

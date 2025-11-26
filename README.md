@@ -1,81 +1,86 @@
-# ESP32 Psychedelic Clock - 60 Effects Collection
+:
 
-🏆 **THE ULTIMATE VISUAL EXPERIENCE** 🏆
+🌈 Acidware Lysergic Clock – Psychonaut Visualization Toy 🌈
+🌀 Mood-Shifting Visual Playground 🌀
 
-A mesmerizing psychedelic clock with **60 unique visual effects** for ESP32-2432S028 displays. Each effect is a masterpiece of mathematics, physics simulation, and visual artistry.
+The Acidware Lysergic Clock turns your ESP32-2432S028 into a psychonaut’s display companion. With 60 unique visual effects, it’s a portable mood device—mathematics, physics, and cosmic art colliding to create mind-altering visuals.
 
-![ESP32 Psychedelic Clock](https://img.shields.io/badge/Effects-60-brightgreen) ![Memory Usage](https://img.shields.io/badge/RAM-31.3%25-blue) ![Flash Usage](https://img.shields.io/badge/Flash-29.8%25-blue) ![Status](https://img.shields.io/badge/Status-Complete-success)
 
-## 🎨 What You Get
+🎨 What You Get
+Your ESP32 becomes a psychedelic toy, delivering:
 
-This project transforms your ESP32-2432S028 into a **mathematical art gallery** with:
+60 Distinct Visual Effects – Each one a different state of mind
 
-- **60 Unique Visual Effects** - Never see the same pattern twice
-- **Mathematical Fractals** - Julia sets, Mandelbrot, Dragon curves
-- **Physics Simulations** - Fire, lightning, lava, particle systems  
-- **Cosmic Displays** - Starfields, wormholes, 3D tunnels
-- **Gaming Nostalgia** - Matrix rain, Tetris pieces, retro geometry
-- **Optimized Performance** - 30+ FPS on ESP32 hardware
+Fractal Explorations – Mandelbrot blooms, Julia vines, dragon curves, spirals
 
-## 🚀 Quick Start
+Physics-Based Moodscapes – Fire, lightning, lava, aurora, ocean waves
 
-### WiFi Version (Recommended - Set time via web!)
-```bash
-# Flash the WiFi-enabled version with web interface
+Cosmic Journeys – Starfields, wormholes, tunnels into infinity
+
+Retro Nostalgia – Matrix rain, Tetris glyphs, geometric throwbacks
+
+Smooth Performance – 30+ FPS tuned for ESP32 hardware
+
+🚀 Quick Start
+WiFi Version (Recommended – Set time via web interface)
+bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x10000 psychedelic_clock_wifi/psychedelic_clock_CLEAN_CLOCK_SET.bin
 # Connect to "ClockAP" WiFi, browse to 192.168.4.1 to set time
-```
-
-### Original Version (Effects only)
-```bash  
-# Flash the original 60-effects version
+Pure Visual Version (Effects only)
+bash
 esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x10000 firmware.bin
-```
+Build from Source
+Install PlatformIO
 
-### Build from Source
-1. Install PlatformIO
-2. Clone this repository  
-3. Choose version: `psychedelic_clock_pio` or `psychedelic_clock_wifi`
-4. Build and upload to your ESP32-2432S028
+Clone this repository
 
-## 📋 Hardware Requirements
+Choose version: psychedelic_clock_pio or psychedelic_clock_wifi
 
-- **ESP32-2432S028** development board (Sunton/CYD)
-- 2.8" ILI9341 TFT Display (320x240)
-- XPT2046 Touch Controller
-- USB-C programming cable
+Build and upload to your ESP32-2432S028
 
-## 🎯 Complete Effect Categories
+🔧 Hardware
+ESP32-2432S028 development board (Sunton/CYD)
 
-### Mathematical Wonders (1-20)
-Plasma fields, fractals, Julia sets, Mandelbrot zooms, strange attractors, dragon curves, hypnotic spirals, wave interference patterns, and cellular automata.
+2.8" ILI9341 TFT Display (320x240)
 
-### Natural Phenomena (21-40)  
-Fire simulations, lightning storms, aurora borealis, ocean waves, lava lamps, tornados, rainbow prisms, snow effects, meteor showers, and volcanic displays.
+XPT2046 Touch Controller
 
-### Particle Systems (41-60)
-Fireworks explosions, particle fountains, smoke dynamics, starfields, cosmic tunnels, Tetris rain, matrix effects, and retro geometry.
+USB-C programming cable
 
-*See [EFFECTS_LIST_60.txt](EFFECTS_LIST_60.txt) for the complete detailed list.*
+🎯 Effect Categories
+Fractal Explorations (1–20)
+Plasma fields, Mandelbrot zooms, Julia sets, dragon curves, spirals, wave interference, cellular automata.
 
-## 🔧 Technical Specifications
+Natural Moodscapes (21–40)
+Fire, lightning, aurora borealis, ocean waves, lava flows, tornados, rainbow prisms, snow cascades, meteor showers, volcanic eruptions.
 
-- **Platform**: ESP32 (240MHz dual-core)
-- **Display**: ILI9341 320x240 TFT
-- **Memory Usage**: 31.3% RAM (102KB), 29.8% Flash (390KB)
-- **Performance**: 30+ FPS across all effects
-- **Code Size**: 4,800+ lines of optimized C++
-- **Power**: USB or battery powered
+Particle Journeys (41–60)
+Fireworks bursts, fountains, smoke dynamics, starfields, cosmic tunnels, matrix rain, retro geometry.
 
-## 🎮 Controls
+See EFFECTS_LIST_60.txt for the complete catalog.
 
-- **Touch Screen**: Tap to cycle through effects (Disabled for now, could not implement)
-- **Auto Mode**: Effects change automatically every 30 seconds (Disabled for now, caused brightness problems)
-- USE BOOT BUTTON TO CYCLE THROUGH SCREENS ONLY AS OF 11-26-2025
+⚙️ Specs
+Platform: ESP32 (240MHz dual-core)
 
-## 📁 Repository Structure
+Display: ILI9341 320x240 TFT
 
-```
+Memory Usage: 31.3% RAM (102KB), 29.8% Flash (390KB)
+
+Performance: 30+ FPS across all effects
+
+Code Size: 4,800+ lines of optimized C++
+
+Power: USB or battery
+
+🎮 Controls
+Touch Screen: Tap to cycle effects (disabled for now)
+
+Auto Mode: Effects shift every 30 seconds (disabled for now)
+
+Boot Button: Cycle through screens (active as of 11-26-2025)
+
+📁 Repository
+Code
 psychedelic_clock_pio/          # Original 60-effects version
 ├── src/
 │   └── main.cpp               # Complete source code (4,800+ lines)
@@ -90,31 +95,25 @@ psychedelic_clock_wifi/         # WiFi-enabled version with web interface
 └── INSTALL.md                 # WiFi installation guide
 
 firmware.bin                   # Pre-built original version
-EFFECTS_LIST_60.txt           # Complete effect documentation  
-README.md                     # This file
-INSTALL.md                    # Installation guide
-```
+EFFECTS_LIST_60.txt            # Complete effect documentation  
+README.md                      # This file
+INSTALL.md                     # Installation guide
+🏆 Achievements
+✅ 60 Mood Effects – Complete collection
 
-## 🛠️ Installation
+✅ Fractal Explorations – Advanced math-driven visuals
 
-See **[INSTALL.md](INSTALL.md)** for complete installation instructions.
+✅ Natural Moodscapes – Physics-based simulations
 
-## 🏆 Project Achievements
+✅ Optimized Performance – 30+ FPS on ESP32 hardware
 
-- ✅ **60 Unique Effects** - Complete collection implemented
-- ✅ **Mathematical Beauty** - Advanced algorithms and fractals
-- ✅ **Physics Simulation** - Realistic natural phenomena
-- ✅ **Optimized Performance** - 30+ FPS on ESP32 hardware
-- ✅ **Memory Efficient** - <32% RAM usage despite complexity
-- ✅ **Production Ready** - Stable, tested, and documented
+✅ Memory Efficient – <32% RAM usage
 
-## 📜 License
+✅ Production Ready – Stable, tested, documented
 
-MIT License - Feel free to use in personal and commercial projects.
+📜 License
+MIT License – Free for personal and commercial use.
 
----
+✨ Transform your ESP32 into a psychonaut’s visualization toy—mathematics, physics, and cosmic art for mood exploration. ✨
 
-**Transform your ESP32 into a mathematical art gallery with 60 mesmerizing visual effects!** 🎨✨
-Still a work in progress. 
-
-*Project completed November 23, 2025 - Created with ❤️ and lots of mathematics*
+Completed November 23, 2025 – Forged with mathematics, perception, and expressive design.

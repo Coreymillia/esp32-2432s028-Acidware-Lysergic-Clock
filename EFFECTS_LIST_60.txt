@@ -1,7 +1,7 @@
 COMPLETE LIST OF 60 PSYCHEDELIC EFFECTS FROM CORESCREENS
 =========================================================
 
-Currently Implemented (15 effects):
+Currently Implemented (60 effects):
 1. PLASMA_FIELD
 2. KALEIDOSCOPE  
 3. MANDELBROT
@@ -17,13 +17,9 @@ Currently Implemented (15 effects):
 13. HEAVY_RAIN
 14. MICRO_DOTS
 15. RAINDROPS
-
-Next 3 to Add (16-18):
 16. DRAGON_CURVE
 17. TUNNEL
 18. LISSAJOUS
-
-Future Effects to Port (19-60):
 19. FIREWORKS
 20. LIGHTNING
 21. HYPNO_VORTEX
@@ -67,24 +63,3 @@ Future Effects to Port (19-60):
 59. JULIA (standalone)
 60. RETRO_GEOMETRY
 
-✅ COMPLETED: Added DRAGON_CURVE, TUNNEL, and LISSAJOUS to get to 18 modes total.
-✅ COMPLETED: Added FIREWORKS, LIGHTNING, HYPNO_VORTEX to get to 21 modes total.
-
-✅ NEW BINARY: psychedelic_clock_21EFFECTS_16-02_11-22-2025.bin (21 psychedelic effects)
-   Created: 16:02 on 11-22-2025 
-   Size: 350KB
-   Memory: 10.9% RAM, 26.7% Flash
-
-CURRENT 21 MODES:
-1-15: Original modes (PLASMA through RAINDROPS)
-16. DRAGON_CURVE
-17. TUNNEL  
-18. LISSAJOUS
-19. FIREWORKS (particle explosions)
-20. LIGHTNING (electrical strikes)
-21. HYPNO_VORTEX (swirling patterns)
-
-NEXT 3 TO ADD (22-24):
-22. VORONOI_LAVA
-23. AURORA
-24. MOIRE_MANDALA

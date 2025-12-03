@@ -2,7 +2,7 @@
 
 **Transform your ESP32-2432S028 into a mesmerizing psychedelic art display!**
 
-This project converts a cheap Chinese ESP32 display module into a hypnotic screensaver with 60 unique visual effects plus an optional digital clock overlay. Perfect for ambient room lighting, art installations, or just because it looks absolutely trippy.
+This project converts a cheap yellow Chinese ESP32 display module into a hypnotic screensaver with 60 unique visual effects plus an optional digital clock overlay. Perfect for ambient room lighting, art installations, or just because it looks absolutely trippy.
 
 ## What This Project Does
 
@@ -18,9 +18,9 @@ This project converts a cheap Chinese ESP32 display module into a hypnotic scree
 - **Clock Overlay** - Stable sprite-like clock display  
 - **Settings Persistence** - Clock preferences survive reboots
 - **Web Interface** - Easy configuration via WiFi
-- **Market Ready** - Tested and stable for sale
+  
 
-## 📦 Three Firmware Versions Available
+## 📦 Four Firmware Versions Available
 
 ⚠️ **HARDWARE LOTTERY: Chinese manufacturers use different LCD panels in identical ESP32-2432S028 boards!**
 
@@ -40,16 +40,16 @@ This project converts a cheap Chinese ESP32 display module into a hypnotic scree
 - **Basic:** `NEWversion_psyclock_12-2.bin` + `NEWversion_source_12-2.cpp`
 - **PERSISTENCE:** `psychedelic_clock_PERSISTENCE_12-2_15-06.bin` + `PERSISTENCE_source_12-2.cpp` ⭐
 - **Features:** Same as OLD + clock settings persist across reboots
-
-### **RECOMMENDED: NEW Hardware with Persistence**
-The persistence version saves your clock on/off setting permanently!
+- 
+----There is also a version without a clock at all---
+  Hardware with Persistence**
+The persistence version saves your clock on/off setting permanently! Unfortunately... not the time. 
 
 ## 🚀 Flash Instructions
 
 ⚠️ **CRITICAL: DO NOT USE esptool.py DIRECTLY**
-- **Can permanently brick your bootloader**
 - **Use ESP32 Flash Tool or PlatformIO only**
-- **We learned this the hard way!**
+  
 
 ### Method 1: ESP32 Flash Download Tool (Easiest)
 1. **Download** ESP32 Flash Tool from Espressif official site
@@ -125,31 +125,25 @@ pio run --target upload
 - **Web Server** - Responds on `192.168.4.1`
 - **Simple Interface** - No complex setup required
 
-## 💰 Commercial Ready
-
-**Perfect for eBay/Etsy Sales:**
 - 60 unique visual effects
 - Web-controlled clock
 - Persistent settings
 - Professional quality
 - Simple user instructions
 
-**Selling Points:**
 - Plug-and-play operation
 - No complex setup required
 - Mesmerizing visual display
 - Clock functionality included
-- Market-tested firmware
-
----
+  
 
 ## 🎉 Final Thoughts
 
-This was my first commercial-quality ESP32 project, and I'm pretty stoked with how it turned out! What started as a simple screensaver idea turned into a full-featured psychedelic display system. 
+This was my first commercial-quality (for my eBay store) ESP32 project, and I'm pretty stoked with how it turned out! What started as a simple screensaver idea turned into a full-featured psychedelic display system.  The clock could use improvements but it was the best I could do. 
 
 **For Makers:** The code is well-commented and modular. Easy to add new effects or modify existing ones. PlatformIO project included for easy building.
 
-**For Buyers:** You're getting 60 unique visual effects that I spent months perfecting. Each one is mathematically generated in real-time - no pre-recorded videos here!
+ You're getting 60 unique visual effects that I spent some time perfecting. Well, they are not all perfect. Each one is mathematically generated in real-time - no pre-recorded videos here!
 
 **Technical Achievement:** 
 - 752KB optimized firmware running 60 effects at 20 FPS
@@ -167,10 +161,8 @@ This was my first commercial-quality ESP32 project, and I'm pretty stoked with h
 - **Gift for Techies** - Unique conversation starter
 
 ## 📞 Support & Contact
-
-**Project Status: COMPLETE - Ready for Commercial Use** ✅
-
-This firmware is stable, tested, and ready for sale. Whether you're buying one for yourself or building them to sell, you're getting months of development work in a turnkey package.
+--Nothing to see here-- Good Luck!
+**Project Status: COMPLETE For now. 
 
 *Quick setup: Connect to "PsyClock" WiFi → Browse to 192.168.4.1 → Set time → Enjoy!*
 

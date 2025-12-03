@@ -1,14 +1,18 @@
 # Flashing Instructions
 
-## Method 1: Flash Binary (Easiest)
+## Method 1: PlatformIO Flash (RECOMMENDED - SAFE)
 
-1. Download `PsyClockNov25_17-35.bin`
-2. Put ESP32 in bootloader mode:
+**⚠️ DO NOT USE esptool - IT CAN BRICK THE BOOTLOADER ⚠️**
+
+1. Install PlatformIO
+2. Create new ESP32 Dev Module project
+3. Replace `src/main.cpp` with provided `main.cpp`  
+4. Put ESP32 in bootloader mode:
    - Hold BOOT button
    - Press RESET while holding BOOT
    - Keep BOOT held for 3+ seconds
    - Release BOOT
-3. Flash: `esptool.py --chip esp32 --port /dev/ttyUSB0 write_flash 0x10000 PsyClockNov25_17-35.bin`
+5. Flash: `pio run --target upload`
 
 ## Method 2: Build from Source
 

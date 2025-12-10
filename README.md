@@ -52,6 +52,14 @@ esptool --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x10000 psych
 **This firmware represents the absolute maximum effects possible on ESP32-2432S028 hardware!**
 
 We pushed the limits and hit the memory wall at exactly 72 effects - a testament to optimal embedded programming! 🏆
+## Credits
+
+This project adapts visual effects from **XScreenSaver**, created and maintained by Jamie Zawinski  
+([jwz.org/xscreensaver](https://www.jwz.org/xscreensaver)).
+
+The last 12 effects in this build are derived from his original hacks, ported and extended for ESP32.  
+All other effects are original adaptations developed within this project.
+
 
 ---
 **Perfect for eBay store: "Professional 72-Effect Psychedelic Clock"** ✨

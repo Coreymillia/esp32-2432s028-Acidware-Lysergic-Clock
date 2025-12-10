@@ -14,7 +14,7 @@ esptool --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x10000 psych
 ```
 
 ## 🌈 72 TOTAL EFFECTS:
-- **60 Original Psychedelic Effects:** Your masterpiece collection
+- **60 Original Psychedelic Effects:** Masterpiece collection
 - **12 XScreensaver Professional Effects:** Hand-ported from xscreensaver
 
 ### 🎨 New XScreensaver Effects Added:

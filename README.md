@@ -35,9 +35,11 @@ esptool --chip esp32 --port /dev/ttyUSB0 --baud 921600 write_flash 0x10000 psych
 - **BUMPS** - 3D bump mapping effect
 
 ## ✅ FEATURES:
+
 - **Boot Button Fixed:** No more holding during flash!
 - **Controls:** Short press = next effect, Long press = toggle auto-scroll
-- **Web Interface:** Connect to "PsychedelicClock" → 192.168.4.1
+- **Web Interface:** Connect to "PsyClock" → 192.168.4.1 PASSWORD-clockset123
+- **Set Clock and Scroll Time:** Use web interface. Set clock, scroll time, disable or enable either
 - **Auto-scroll:** 10-second intervals (12+ minutes total cycle)
 - **LED Sync:** Blue ambient lighting
 - **Memory Optimized:** Maximum possible effects for ESP32-2432S028
